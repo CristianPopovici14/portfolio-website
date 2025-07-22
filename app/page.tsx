@@ -52,10 +52,10 @@ export default function Home() {
                   </div>
                   <div className="bg-zinc-800 w-full h-fit rounded-xl p-4">
                       <Image src="/olaNotes.png" width={500} height={500} className="w-full rounded-md" alt="olaNotes image"/>
-                      <h3 className="text-white font-bold text-xl pb-3">olaNotes</h3>
-                      <a href="" className="text-white font-bold flex items-center hover:text-zinc-200 w-fit">GitHub <SquareArrowOutUpRightIcon className="ml-1 h-3 w-3" /></a>
-                      <p className="text-white mt-1">
-                          A note taking app made with <strong>React</strong>, <strong>Typescript</strong>, <strong>Firebase</strong> and <strong>Shadcn/ui</strong>.
+                      <h3 className="text-white font-bold text-xl pb-3">
+                      <a href="https://noteflow-test.web.app/" className="text-white font-bold flex items-center hover:text-zinc-200 w-fit">olaNotes <SquareArrowOutUpRightIcon className="ml-1 h-3 w-3" /></a></h3>
+                      <p className="text-white">
+                          A note taking app SAAS made with <strong>React</strong>, <strong>Typescript</strong>, <strong>Firebase</strong> and <strong>Shadcn/ui</strong>.
                       </p>
                   </div>
               </section>
