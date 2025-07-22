@@ -11,12 +11,12 @@ export default function Home() {
                       <div className="w-full">
                           <h1 className="text-white font-bold text-2xl">Cristian Popovici</h1>
                       </div>
-                      <a href="" className="p-2 ml-3 border border-zinc-800 rounded">
+                      <a href="https://github.com/CristianPopovici14" target="_blank" className="p-2 ml-3 border border-zinc-800 rounded">
                           <img className="w-6 h-5 invert" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="" />
                       </a>
-                      <a href="" className="p-2 ml-3 text-sm text-white border border-zinc-800 rounded">
-                                  CV
-                              </a>
+                      <a href="/CV.pdf" target="_blank" className="p-2 ml-3 text-sm text-white border border-zinc-800 rounded">
+                        CV
+                      </a>
                   </div>
                   <div className="flex flex-row mt-1 items-center">
                       <MapPin className="h-4 w-4 text-zinc-500 mr-1" />
@@ -37,7 +37,7 @@ export default function Home() {
                   <div className="bg-zinc-800 w-full h-fit rounded-xl p-4 mb-4">
                       <Image src="/QuarkBrowser.png" width={500} height={500} className="w-full rounded-md" alt="olaNotes image"/>
                       <h3 className="text-white font-bold text-xl pb-3">Quark Browser</h3>
-                      <a href="https://github.com/CristianPopovici14/quark-browser" className="text-white font-bold flex items-center hover:text-zinc-200 w-fit">GitHub <SquareArrowOutUpRightIcon className="ml-1 h-3 w-3" /></a>
+                      <a href="https://github.com/CristianPopovici14/quark-browser" target="_blank" className="text-white font-bold flex items-center hover:text-zinc-200 w-fit">GitHub <SquareArrowOutUpRightIcon className="ml-1 h-3 w-3" /></a>
                       <p className="text-white mt-1">
                           A browser made with <strong>HTML</strong>, <strong>Tailwind CSS</strong>, <strong>JavaScript</strong> and <strong>Electron</strong>.
                       </p>
@@ -45,7 +45,7 @@ export default function Home() {
                   <div className="bg-zinc-800 w-full h-fit rounded-xl p-4 mb-4">
                       <Image src="/mywebsite.png" width={500} height={500} className="w-full rounded-md" alt="olaNotes image"/>
                       <h3 className="text-white font-bold text-xl pb-3">This Website</h3>
-                      <a href="https://github.com/CristianPopovici14/portfolio-website" className="text-white font-bold flex items-center hover:text-zinc-200 w-fit">GitHub <SquareArrowOutUpRightIcon className="ml-1 h-3 w-3" /></a>
+                      <a href="https://github.com/CristianPopovici14/portfolio-website" target="_blank" className="text-white font-bold flex items-center hover:text-zinc-200 w-fit">GitHub <SquareArrowOutUpRightIcon className="ml-1 h-3 w-3" /></a>
                       <p className="text-white mt-1">
                           A portfolio website made with <strong>NextJS</strong>, <strong>React</strong>, <strong>Typescript</strong> and <strong>Shadcn/ui</strong>.
                       </p>
@@ -53,7 +53,7 @@ export default function Home() {
                   <div className="bg-zinc-800 w-full h-fit rounded-xl p-4">
                       <Image src="/olaNotes.png" width={500} height={500} className="w-full rounded-md" alt="olaNotes image"/>
                       <h3 className="text-white font-bold text-xl pb-3">
-                      <a href="https://noteflow-test.web.app/" className="text-white font-bold flex items-center hover:text-zinc-200 w-fit">olaNotes <SquareArrowOutUpRightIcon className="ml-1 h-3 w-3" /></a></h3>
+                      <a href="https://noteflow-test.web.app/" target="_blank" className="text-white font-bold flex items-center hover:text-zinc-200 w-fit">olaNotes <SquareArrowOutUpRightIcon className="ml-1 h-3 w-3" /></a></h3>
                       <p className="text-white">
                           A note taking app SAAS made with <strong>React</strong>, <strong>Typescript</strong>, <strong>Firebase</strong> and <strong>Shadcn/ui</strong>.
                       </p>

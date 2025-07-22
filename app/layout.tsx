@@ -17,7 +17,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     return (
       <html>
         <body>
-          <div className="w-screen flex flex-col items-center justify-center bg-zinc-900">
+          <div className="w-screen flex flex-col items-center justify-center bg-zinc-900 pb-5">
             <div className="flex flex-col items-center w-screen min-h-svh">
               <div className="max-w-[900px] w-[80%] " >
                 <Navbar />
